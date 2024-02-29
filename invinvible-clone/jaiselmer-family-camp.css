@@ -1,0 +1,433 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================================HEADER START============================================================== */
+
+.header {
+    display: flex;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    color: rgb(253, 245, 245);
+
+}
+
+.logo img{
+    height: 100px;
+    width: 132px;
+}
+
+.navbar {
+    position: absolute;
+    margin-top: -368px;
+    margin-left: 730px;
+
+}
+
+/* ====================================OFF CANVAS======================================= */
+.btn1 {
+    position: absolute;
+    top: 48px;
+    left: 89%;
+}
+
+.btn-close {
+    margin: 24px 0 17px 273px;
+}
+
+.nav {
+    display: flex;
+    margin: 22px 5px 24px 26px;
+}
+
+.nav2 {
+    margin-left: 30px;
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+.menu-bottom {
+    border-top: 1px solid grey;
+    margin: 118px 5px 24px 26px;
+
+}
+
+.menu-bottom1 {
+    display: flex;
+}
+
+.menu-bottom1 h6 {
+    margin-left: 20px;
+}
+
+.menu-bottom1 .icon1 {
+    color: #1c1c1c;
+    margin-right: 10px;
+}
+
+.offcanvas {
+    width: 200px;
+}
+
+/* <!-- =========================================================HEADER END============================================================= --> */
+
+/* <!-- ===================================================================BOOK======================================================= --> */
+
+.bg-light {
+    height: 80px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    margin-top: 11px;
+}
+
+.book-now {
+    margin-left: 572px;
+}
+
+.bus{
+    border: 1px solid rgba(198, 197, 197, 0.442);
+    box-shadow: 0px 0px 9px 0px #88888896;
+    display: flex;
+    margin-bottom: 20px;
+}
+.body-modal{
+    height: 674px;
+}
+
+/* <!-- ===================================================================BOOK END======================================================= --> */
+
+/* <!-- =======================================================================2ND MAIN================================================================= --> */
+
+.second-main {
+    display: flex;
+}
+
+h4 {
+    color: red;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+.second-main h6 {
+    color: rgb(134, 134, 134);
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+.second-main1 {
+    display: flex;
+}
+
+.second-main2 {
+    display: flex;
+    margin-right: 23px;
+}
+
+.second-left2 {
+    border-top: 1px solid grey;
+}
+
+.icon .fa {
+    height: 58px;
+
+}
+
+.icon-right h6 {
+    margin-left: 10px;
+    color: rgb(50, 50, 50);
+    font-family: inherit;
+    line-height: 4px;
+}
+
+.second-right {
+    border: 1px solid rgba(200, 200, 200, 0.715);
+    border-radius: 10%;
+    padding: 18px;
+    box-shadow: -1px 0px 10px 0px #88888896;
+    margin-left: 24px;
+}
+
+.second-icon {
+    display: flex;
+    margin-top: 10px;
+}
+
+.second-icon .fa {
+    color: #ff3300;
+    margin: 4px 2px 0 0;
+    background-color: rgba(203, 201, 201, 0.744);
+    border-radius: 86%;
+    height: 34px;
+    width: 34px;
+    padding: 10px;
+}
+
+.second-icon-text {
+    line-height: 42px;
+    margin-right: 10px;
+}
+
+.second-icon1 {
+    display: flex;
+}
+
+/* <!-- =======================================================================2ND MAIN END================================================================= --> */
+
+/* <!-- ==================================================================================JOIN US FROM START============================================================== --> */
+.join-us1 {
+    display: flex;
+}
+
+.join-us2 {
+    border: 1px solid rgba(200, 200, 200, 0.715);
+    border-radius: 10%;
+    padding: 18px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.join-us2 h5 {
+    color: #1c1c1c;
+    margin: 5px 0 5px 0;
+}
+
+.bottom h6 {
+    margin-right: 60px;
+    color: grey;
+}
+
+.dates .dates1  {
+    display: flex;
+
+}
+
+.dates2 {
+    margin: 10px 30px 10px 0;
+    border: 1px solid rgba(174, 174, 174, 0.844);
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    padding: 8px 8px 7px 11px;
+    font-weight: 500;
+
+}
+.nov-dates,  .dec-dates, .jan-dates, .feb-dates{
+    display: none;
+}
+
+/* <!-- ==================================================================================JOIN US FROM END============================================================== --> */
+
+/* <!-- ======================================================================================SCHEDULE START-======================================================================== --> */
+
+.schedule {
+    padding: 0 0 20px 22px;
+    border-left: 1px solid rgba(182, 182, 182, 0.699);
+    border-bottom: 1px solid rgba(182, 182, 182, 0.699);
+    margin-top: 24px;
+}
+
+/* <!-- ======================================================================================SCHEDULE END-======================================================================== --> */
+
+/* <!-- ======================================================================================ATTRACTIONS START-======================================================================== --> */
+
+.attraction1 {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 32PX;
+}
+
+.attraction2 {
+    margin-right: 20px;
+}
+
+.attraction2 img {
+    border-radius: 10%;
+}
+
+.attraction-text {
+    margin-top: 10px;
+}
+
+/* - ======================================================================================ATTRACTIONS END-======================================================================== --> */
+
+/* * <!-- ======================================================================================VIDEOS START-======================================================================== --> */ */
+
+.videos1 {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 32PX;
+}
+
+.videos2 {
+    margin-right: 20px;
+}
+
+.videos2 iframe {
+    border-radius: 10%;
+}
+
+/* <!-- ===================================================================BOOK END======================================================= -->
+
+ <!-- ============================================================================SIMILAR TREKS START======================================================= --> */
+
+
+ .similar small {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 53px;
+}
+
+.right-arrow {
+    margin-right: 92px;
+    line-height: 28px;
+}
+
+.similar2 {
+    margin-top: 38px;
+}
+
+/* <!-- ============================================================================FOOTER START============================================================================== --> */
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 51px;
+}
+
+.footer1 h6 {
+    color: rgb(215, 213, 213);
+    margin-top: 16px;
+    width: 256px;
+    line-height: 21px;
+    font-family: revert;
+}
+
+.fa-brands {
+    color: rgb(250, 250, 250);
+}
+
+.footer1 {
+    margin-right: 77px;
+}
+
+.one h6 {
+    color: white;
+    line-height: 7px;
+}
+
+/* ====================================================================FOOTER END==================================================== */
+
+/* ===================================================================MEDIA QUERY================================================= */
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+
+        .second-main1 {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer1 h6 {
+            color: rgb(215, 213, 213);
+            margin-top: 16px;
+            width: 171px;
+            line-height: 21px;
+            font-family: revert;
+        }
+        .similar2 {
+            margin-top: -1px;
+        }
+    }}
+
+    
+      /* =============================================================FOR MOBILE=========================================== */
+
+ 
+      @media (min-width:375px) and (max-width:767px) {
+
+        .schedule img {
+             vertical-align: middle;
+             border-style: none;
+             width: 93%;
+         }
+         .menu-bottom1 {
+            display: flex;
+            margin-bottom: 10px;
+        }
+ 
+         .book-now {
+             margin-left: 259px;
+             margin-bottom: 3px;
+         }
+ 
+         .btn1 {
+             position: absolute;
+             top: 48px;
+             left: 81%;
+         }
+         .second-main {
+           
+             display: block;
+         }
+         .second-main1 {
+             display: flex;
+             flex-wrap: wrap;
+         }
+         .second-right {
+             border: 1px solid rgba(200, 200, 200, 0.715);
+             border-radius: 10%;
+             padding: 33px;
+             box-shadow: -1px 0px 10px 0px #88888896;
+           margin-left: 0;
+         }
+        
+         .join-us1 {
+             display: flex;
+             overflow-x: auto;
+         }
+         .dates .dates1 {
+             display: flex;
+             flex-wrap: wrap;
+             
+         }
+         .nov-dates .nov-dates1{
+             display: flex;
+             flex-wrap: wrap;
+             
+         }
+           .dec-dates .dec-dates1{
+             display: flex;
+             flex-wrap: wrap;
+           
+         }
+         .jan-dates .jan-dates1{
+             display: flex;
+             flex-wrap: wrap;
+         }
+         .feb-dates .feb-dates1{
+             display: flex;
+             flex-wrap: wrap;
+         }
+ 
+         .footer {
+             display: flex;
+             margin-top: 30px;
+             padding-top: 51px;
+             flex-direction: column;
+         }
+         
+       }
+
+

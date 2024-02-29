@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================================HEADER START============================================================== */
+
+.header {
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    width: 132px;
+}
+
+/* ====================================OFF CANVAS======================================= */
+.btn1 {
+    position: absolute;
+    top: 48px;
+    left: 89%;
+}
+
+.btn-close {
+    margin: 24px 0 17px 273px;
+}
+
+.nav {
+    display: flex;
+    margin: 22px 5px 24px 26px;
+}
+
+.nav2 {
+    margin-left: 30px;
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+.menu-bottom {
+    border-top: 1px solid grey;
+    margin: 118px 5px 24px 26px;
+
+}
+
+.menu-bottom1 {
+    display: flex;
+}
+
+.menu-bottom1 h6 {
+    margin-left: 20px;
+}
+
+.menu-bottom1 .icon1 {
+    color: #1c1c1c;
+    margin-right: 10px;
+}
+
+.offcanvas {
+    width: 200px;
+}
+
+
+/* <!-- ====================================================================HEADER END===================================================================== --> */
+
+/* <!-- ------------------------------------------------------------------------------MIDDLE START=================================================================== --> */
+
+.event-main{
+    display: flex;
+}
+
+.event1{
+    border: 1px solid rgba(235, 235, 235, 0.562);
+    border-radius: 10%;
+    height: auto;
+    padding: 11px;
+    margin: 4px 10px;
+    box-shadow: 20px 20px 50px rgba(228, 228, 228, 0.648);
+}
+.event1 img{
+    height: 191px;
+    width: 286px;
+    border-radius: 10%;
+}
+.event1 h6{
+    color:red;
+    margin-top: 10px;
+    font-family: inherit;
+    margin-bottom: 0;
+}
+
+.event1 small{
+    font-family: inherit;
+}
+
+/* <!-- ------------------------------------------------------------------------------MIDDLE END=================================================================== --> */
+
+/* <!-- ============================================================================FOOTER START============================================================================== --> */
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer1 h6 {
+    color: rgb(215, 213, 213);
+    margin-top: 16px;
+    width: 256px;
+    line-height: 21px;
+    font-family: revert;
+}
+.fa-brands{
+    color: white;
+}
+.footer1{
+margin-right: 77px;
+}
+.one h6{
+    color: white;
+    line-height: 7px;
+}
+hr{
+   border-top: 1px solid white;
+}
+
+/* ===================================================================MEDIA QUERY================================================= */
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+
+        .footer1 {
+            margin-right: 41px;
+        }
+        .bg-danger {
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+            width: 130%;
+        }
+        .bg-dark {
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+            width: 130%;
+        }
+    }
+     }
+
+     /* =============================================================FOR MOBILE=========================================== */
+
+ 
+    @media (min-width:375px) and (max-width:767px) {
+
+        .event-main {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer {
+            display: flex;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+       
+    }

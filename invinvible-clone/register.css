@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================================HEADER START============================================================== */
+
+.header {
+    display: flex;
+}
+
+
+.logo {
+
+    margin-bottom: 6px;
+    color: white;
+}
+.logo img{
+    height: 100px;
+    width: 132px;
+}
+
+/* ====================================OFF CANVAS======================================= */
+.btn1 {
+    position: absolute;
+    top: 48px;
+    left: 89%;
+}
+
+.btn-close {
+    margin: 24px 0 17px 273px;
+}
+
+.nav {
+    display: flex;
+    margin: 22px 5px 24px 26px;
+}
+
+.nav2 {
+    margin-left: 30px;
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+.menu-bottom {
+    border-top: 1px solid grey;
+    margin: 118px 5px 24px 26px;
+
+}
+
+.menu-bottom1 {
+    display: flex;
+}
+
+.menu-bottom1 h6 {
+    margin-left: 20px;
+}
+
+.menu-bottom1 .icon1 {
+    color: #1c1c1c;
+    margin-right: 10px;
+}
+
+.offcanvas {
+    width: 200px;
+}
+
+/* ===================================================================MEDIA QUERY================================================= */
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+        .btn1 {
+            position: absolute;
+            top: 48px;
+            left: 89%;
+        }
+        .menu-bottom1 {
+            display: flex;
+            margin-bottom: 10px;
+        }
+    }}

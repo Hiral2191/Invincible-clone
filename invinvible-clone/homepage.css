@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======================================================HEADER START============================================================== */
+.container {
+    display: flex;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    color: white;
+
+}
+
+.logo img{
+    height: 100px;
+    width: 132px;
+}
+
+
+.header-text h1 {
+    font-size: 1.5rem;
+
+}
+
+
+
+
+  .line-1{
+      position: relative;
+      top: 50%;  
+      width: 2em;
+      border-right: 2px solid rgba(255,255,255,.75);
+      font-size: 180%;
+    
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);    
+  }
+  
+  
+/* Animation */
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 5em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+.btn-white {
+    color: #1c1c1c;
+    background-color: #fff;
+    border-color: #fff;
+    margin-bottom: 214px;
+}
+
+
+
+.header-last,
+.hlast {
+    display: flex;
+    margin-top: 5px;
+    padding-right: 62px;
+}
+
+.header-last .icon {
+    height: 46px;
+
+}
+
+.header-text1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 0 7px;
+    line-height: 21px;
+}
+
+.header-text1 h6 {
+    margin-top: 7px;
+    font-family: inherit;
+}
+
+/* ====================================OFF CANVAS======================================= */
+.btn1 {
+    position: absolute;
+    top: 48px;
+    left: 89%;
+}
+
+.btn-close {
+    margin: 24px 0 17px 273px;
+}
+
+.nav {
+    display: flex;
+    margin: 22px 5px 24px 26px;
+}
+
+.nav2 {
+    margin-left: 30px;
+    font-family: inherit;
+    font-weight: 500;
+
+}
+
+.menu-bottom {
+    border-top: 1px solid grey;
+    margin: 118px 5px 24px 26px;
+
+}
+
+.menu-bottom1 {
+    display: flex;
+}
+
+.menu-bottom1 h6 {
+    margin-left: 20px;
+}
+
+.menu-bottom1 .icon1 {
+    color: #0e0d0d;
+    margin-right: 10px;
+}
+
+.offcanvas {
+    width: 200px;
+}
+
+
+/* <!-- =======================================================================HEADER END ======================================================================== */
+
+/* =================================================================HIGHLIGHTED EVENTS START================================================================= */
+
+.events {
+    overflow-x: auto;
+}
+
+.events img {
+    margin-right: 12px;
+    padding-bottom: 26px;
+}
+
+/* ==================================================================HIGHLIGHTED EVENTS END============================================================================= */
+
+/* ============================================================================Experience YOUR SELF START=========================================================== */
+
+.link {
+    overflow-x: auto;
+}
+
+.link iframe {
+    height: 194px;
+    width: 267px;
+    margin-right: 12px;
+    padding-bottom: 26px;
+
+}
+
+/* <!-- ============================================================================Experience YOUR SELF END=========================================================== --> */
+
+/* <!-- ===================================================================================RATINGS START========================================================================= --> */
+.client-pic img {
+    border-radius: 20%;
+}
+
+.ratings,
+.review {
+    display: flex;
+    padding-right: 18px;
+}
+
+.client-name {
+    font-weight: 500;
+    margin-left: 14px;
+    line-height: 18px;
+}
+
+.five-star {
+    margin-top: 5px;
+}
+
+.review-text {
+    border-top: 1px solid rgba(150, 150, 150, 0.77);
+    padding-top: 10px;
+    width: 253px;
+    color: #808080bf;
+}
+
+/* <!-- ===================================================================================RATINGS END========================================================================= --> */
+
+/* <!-- ============================================================================================STORIES START==================================================================== --> */
+.heading1 {
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.story-img img {
+    height: 145px;
+    width: 280px;
+    border-radius: 20px;
+
+}
+
+.story-img {
+    margin-right: 10px;
+}
+
+.story-img h6 {
+    width: 235px;
+    margin-bottom: 44px;
+}
+
+/* <!-- ============================================================================================STORIES END==================================================================== --> */
+
+/* <!-- ============================================================================FOOTER START============================================================================== --> */
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer1 h6 {
+    color: rgb(215, 213, 213);
+    margin-top: 16px;
+    width: 256px;
+    line-height: 21px;
+    font-family: revert;
+}
+
+.fa-brands {
+    color: rgb(250, 250, 250);
+}
+
+.footer1 {
+    margin-right: 77px;
+}
+
+.one h6 {
+    color: white;
+    line-height: 7px;
+}
+
+/* ====================================================================FOOTER END==================================================== */
+
+
+/* ===================================================================MEDIA QUERY================================================= */
+
+
+
+/* /* =====================================================FOR LAPTOP ========================================================= * */
+
+@media screen and (max-width:1024px) {
+
+    .btn1 {
+        position: absolute;
+        top: 78px;
+        left: 86%;
+    }
+    .header-last, .hlast {
+        display: flex;
+        margin-top: 5px;
+        padding-right: 34px;
+    }
+    .header-last .icon {
+        height: 29px;
+    }
+
+    .review-text {
+        border-top: 1px solid rgba(150, 150, 150, 0.77);
+        padding-top: 10px;
+        width: 245px;
+        color: #808080bf;
+    }
+    .footer1 {
+        margin-right: 68px;
+    }
+
+}
+
+/* =============================================================FOR TABLET=========================================== */
+
+@media (max-width:768px) {
+    @media (min-width:768px) and (max-width:1024px) {
+
+        .review-text {
+            border-top: 1px solid rgba(150, 150, 150, 0.77);
+            padding-top: 10px;
+            width: 158px;
+            color: #808080bf;
+        }
+        .footer1 {
+            margin-right: 24px;
+        }
+        .footer1 h6 {
+            color: rgb(215, 213, 213);
+            margin-top: 16px;
+            width: 212px;
+            line-height: 21px;
+            font-family: revert;
+        }
+    }
+    }
+
+     /* =============================================================FOR MOBILE=========================================== */
+
+ 
+    @media (min-width:375px) and (max-width:767px) {
+        .btn1 {
+            position: absolute;
+            top: 78px;
+            left: 79%;
+        }
+        .btn-white {
+            color: #1c1c1c;
+            background-color: #fff;
+            border-color: #fff;
+            margin-bottom: 150px;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 0;
+            color: white;
+            font-size: small;
+        }
+        .header-text1 {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 0 0 0 7px;
+            line-height: 22px;
+        }
+        
+        .header-last, .hlast {
+            display: flex;
+            margin-top: 6px;
+            padding-right: 38px;
+            flex-wrap: wrap;
+        }
+        .ratings, .review {
+            display: flex;
+            padding-right: 18px;
+            flex-wrap: wrap;
+        }
+        .footer {
+            display: flex;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+        .footer1 {
+            margin-right: 68px;
+            margin-bottom: 32px;
+        }
+
+    }
+
+   
